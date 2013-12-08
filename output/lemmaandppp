@@ -1,0 +1,437 @@
+open files...
+read sentences...
+contruct parse trees...
+update tags...
+prune...
+create identify features index...
+findFeatures...
+number of features: 219574
+number of sentences: 39832
+number of instances: 1613574
+create feature matrix...
+create identifier
+fit feature matrix......
+save identifier and features to disk...
+start training classifier...
+create feature matrix...
+create classifier
+fit feature matrix......
+save classifier to disk...
+open files...
+read sentences...
+contruct parse trees...
+update tags...
+prune...
+findFeatures...
+create feature matrix...
+numinst: 45696
+start identification...
+1829.0 2905.0 40962.0
+
+identifier evaluation:
+fn: 1829.0 fp: 2905.0 tp: 40962.0
+recall 0.957257367203
+precision 0.933777098958
+fmeasure 0.945371460223
+create feature matrix...
+start classification...
+
+NULL evaluation:
+fn: 2905.0 fp: 0.0 tp: 0.0
+recall 0.0
+precision 0
+fmeasure 0
+expect: NULL actual: A0 517.0
+expect: NULL actual: A1 1438.0
+expect: NULL actual: A2 245.0
+expect: NULL actual: A3 16.0
+expect: NULL actual: A4 14.0
+expect: NULL actual: R-A0 20.0
+expect: NULL actual: R-A1 30.0
+expect: NULL actual: R-A2 1.0
+expect: NULL actual: R-A4 1.0
+expect: NULL actual: AM-ADV 136.0
+expect: NULL actual: AM-CAU 15.0
+expect: NULL actual: AM-DIR 11.0
+expect: NULL actual: AM-DIS 15.0
+expect: NULL actual: AM-EXT 3.0
+expect: NULL actual: AM-LOC 92.0
+expect: NULL actual: AM-MNR 45.0
+expect: NULL actual: AM-MOD 7.0
+expect: NULL actual: AM-NEG 2.0
+expect: NULL actual: AM-PNC 89.0
+expect: NULL actual: AM-TMP 175.0
+expect: NULL actual: C-A1 27.0
+expect: NULL actual: C-V 1.0
+expect: NULL actual: C-AM-TMP 1.0
+expect: NULL actual: C-AM-EXT 1.0
+expect: NULL actual: C-AM-PNC 3.0
+
+A0 evaluation:
+fn: 88.0 fp: 758.0 tp: 2827.0
+recall 0.969811320755
+precision 0.788563458856
+fmeasure 0.869846153846
+expect: A0 actual: A0 2827.0
+expect: A0 actual: A1 74.0
+expect: A0 actual: A2 3.0
+expect: A0 actual: AM-LOC 1.0
+expect: A0 actual: AM-PNC 8.0
+expect: A0 actual: AM-TMP 2.0
+
+A1 evaluation:
+fn: 335.0 fp: 1899.0 tp: 4134.0
+recall 0.925039158648
+precision 0.685231228245
+fmeasure 0.787278613597
+expect: A1 actual: A0 190.0
+expect: A1 actual: A1 4134.0
+expect: A1 actual: A2 66.0
+expect: A1 actual: A3 4.0
+expect: A1 actual: A4 1.0
+expect: A1 actual: AM 2.0
+expect: A1 actual: R-A0 2.0
+expect: A1 actual: R-A1 5.0
+expect: A1 actual: AM-ADV 11.0
+expect: A1 actual: AM-CAU 2.0
+expect: A1 actual: AM-DIS 4.0
+expect: A1 actual: AM-EXT 2.0
+expect: A1 actual: AM-LOC 3.0
+expect: A1 actual: AM-MNR 6.0
+expect: A1 actual: AM-PNC 18.0
+expect: A1 actual: AM-TMP 9.0
+expect: A1 actual: C-A1 10.0
+
+A2 evaluation:
+fn: 299.0 fp: 475.0 tp: 575.0
+recall 0.657894736842
+precision 0.547619047619
+fmeasure 0.597713097713
+expect: A2 actual: A0 23.0
+expect: A2 actual: A1 164.0
+expect: A2 actual: A2 575.0
+expect: A2 actual: A3 10.0
+expect: A2 actual: A4 11.0
+expect: A2 actual: R-A2 1.0
+expect: A2 actual: R-A4 1.0
+expect: A2 actual: AM-ADV 13.0
+expect: A2 actual: AM-CAU 4.0
+expect: A2 actual: AM-DIR 5.0
+expect: A2 actual: AM-LOC 20.0
+expect: A2 actual: AM-MNR 9.0
+expect: A2 actual: AM-PNC 12.0
+expect: A2 actual: AM-TMP 14.0
+expect: A2 actual: C-A1 5.0
+expect: A2 actual: C-AM-TMP 3.0
+expect: A2 actual: C-AM-DIR 2.0
+expect: A2 actual: C-AM-PNC 2.0
+
+A3 evaluation:
+fn: 69.0 fp: 59.0 tp: 62.0
+recall 0.473282442748
+precision 0.512396694215
+fmeasure 0.492063492063
+expect: A3 actual: A0 3.0
+expect: A3 actual: A1 21.0
+expect: A3 actual: A2 18.0
+expect: A3 actual: A3 62.0
+expect: A3 actual: A4 2.0
+expect: A3 actual: AM-ADV 2.0
+expect: A3 actual: AM-CAU 1.0
+expect: A3 actual: AM-LOC 8.0
+expect: A3 actual: AM-MNR 3.0
+expect: A3 actual: AM-PNC 5.0
+expect: A3 actual: AM-TMP 4.0
+expect: A3 actual: C-A1 1.0
+expect: A3 actual: C-AM-ADV 1.0
+
+A4 evaluation:
+fn: 18.0 fp: 35.0 tp: 59.0
+recall 0.766233766234
+precision 0.627659574468
+fmeasure 0.690058479532
+expect: A4 actual: A1 3.0
+expect: A4 actual: A2 9.0
+expect: A4 actual: A3 1.0
+expect: A4 actual: A4 59.0
+expect: A4 actual: AM-LOC 1.0
+expect: A4 actual: AM-MNR 2.0
+expect: A4 actual: AM-TMP 2.0
+
+AM evaluation:
+fn: 0.0 fp: 2.0 tp: 0.0
+recall 0
+precision 0.0
+fmeasure 0
+
+R-A0 evaluation:
+fn: 0.0 fp: 48.0 tp: 197.0
+recall 1.0
+precision 0.804081632653
+fmeasure 0.891402714932
+expect: R-A0 actual: R-A0 197.0
+
+R-A1 evaluation:
+fn: 26.0 fp: 43.0 tp: 102.0
+recall 0.796875
+precision 0.703448275862
+fmeasure 0.747252747253
+expect: R-A1 actual: A1 3.0
+expect: R-A1 actual: R-A0 23.0
+expect: R-A1 actual: R-A1 102.0
+
+R-A2 evaluation:
+fn: 5.0 fp: 2.0 tp: 4.0
+recall 0.444444444444
+precision 0.666666666667
+fmeasure 0.533333333333
+expect: R-A2 actual: R-A0 3.0
+expect: R-A2 actual: R-A1 2.0
+expect: R-A2 actual: R-A2 4.0
+
+R-A4 evaluation:
+fn: 0.0 fp: 2.0 tp: 0.0
+recall 0
+precision 0.0
+fmeasure 0
+
+AM-ADV evaluation:
+fn: 111.0 fp: 247.0 tp: 255.0
+recall 0.696721311475
+precision 0.50796812749
+fmeasure 0.587557603687
+expect: AM-ADV actual: A0 3.0
+expect: AM-ADV actual: A1 15.0
+expect: AM-ADV actual: A2 17.0
+expect: AM-ADV actual: A3 3.0
+expect: AM-ADV actual: A4 1.0
+expect: AM-ADV actual: AM-ADV 255.0
+expect: AM-ADV actual: AM-CAU 3.0
+expect: AM-ADV actual: AM-DIS 9.0
+expect: AM-ADV actual: AM-LOC 8.0
+expect: AM-ADV actual: AM-MNR 18.0
+expect: AM-ADV actual: AM-MOD 1.0
+expect: AM-ADV actual: AM-PNC 3.0
+expect: AM-ADV actual: AM-TMP 28.0
+expect: AM-ADV actual: C-AM-DIS 1.0
+expect: AM-ADV actual: C-AM-DIR 1.0
+
+AM-CAU evaluation:
+fn: 19.0 fp: 33.0 tp: 32.0
+recall 0.627450980392
+precision 0.492307692308
+fmeasure 0.551724137931
+expect: AM-CAU actual: A1 3.0
+expect: AM-CAU actual: A2 5.0
+expect: AM-CAU actual: A3 2.0
+expect: AM-CAU actual: A4 1.0
+expect: AM-CAU actual: AM-ADV 1.0
+expect: AM-CAU actual: AM-CAU 32.0
+expect: AM-CAU actual: AM-LOC 2.0
+expect: AM-CAU actual: AM-MNR 1.0
+expect: AM-CAU actual: AM-TMP 4.0
+
+AM-DIR evaluation:
+fn: 23.0 fp: 21.0 tp: 11.0
+recall 0.323529411765
+precision 0.34375
+fmeasure 0.333333333333
+expect: AM-DIR actual: A1 2.0
+expect: AM-DIR actual: A2 11.0
+expect: AM-DIR actual: A3 1.0
+expect: AM-DIR actual: A4 2.0
+expect: AM-DIR actual: AM-DIR 11.0
+expect: AM-DIR actual: AM-MNR 5.0
+expect: AM-DIR actual: AM-PNC 1.0
+expect: AM-DIR actual: AM-TMP 1.0
+
+AM-DIS evaluation:
+fn: 48.0 fp: 36.0 tp: 114.0
+recall 0.703703703704
+precision 0.76
+fmeasure 0.730769230769
+expect: AM-DIS actual: A0 1.0
+expect: AM-DIS actual: A2 4.0
+expect: AM-DIS actual: AM-ADV 17.0
+expect: AM-DIS actual: AM-DIS 114.0
+expect: AM-DIS actual: AM-LOC 6.0
+expect: AM-DIS actual: AM-MNR 3.0
+expect: AM-DIS actual: AM-TMP 17.0
+
+AM-EXT evaluation:
+fn: 12.0 fp: 10.0 tp: 15.0
+recall 0.555555555556
+precision 0.6
+fmeasure 0.576923076923
+expect: AM-EXT actual: A0 1.0
+expect: AM-EXT actual: A1 4.0
+expect: AM-EXT actual: A2 1.0
+expect: AM-EXT actual: A4 1.0
+expect: AM-EXT actual: AM-ADV 3.0
+expect: AM-EXT actual: AM-EXT 15.0
+expect: AM-EXT actual: AM-MNR 2.0
+
+AM-LOC evaluation:
+fn: 80.0 fp: 238.0 tp: 174.0
+recall 0.685039370079
+precision 0.422330097087
+fmeasure 0.522522522523
+expect: AM-LOC actual: A0 2.0
+expect: AM-LOC actual: A1 14.0
+expect: AM-LOC actual: A2 20.0
+expect: AM-LOC actual: AM-ADV 4.0
+expect: AM-LOC actual: AM-CAU 1.0
+expect: AM-LOC actual: AM-DIS 2.0
+expect: AM-LOC actual: AM-EXT 2.0
+expect: AM-LOC actual: AM-LOC 174.0
+expect: AM-LOC actual: AM-MNR 4.0
+expect: AM-LOC actual: AM-PNC 2.0
+expect: AM-LOC actual: AM-TMP 28.0
+expect: AM-LOC actual: C-AM-DIS 1.0
+
+AM-MNR evaluation:
+fn: 116.0 fp: 110.0 tp: 145.0
+recall 0.555555555556
+precision 0.56862745098
+fmeasure 0.562015503876
+expect: AM-MNR actual: A0 6.0
+expect: AM-MNR actual: A1 22.0
+expect: AM-MNR actual: A2 28.0
+expect: AM-MNR actual: A3 8.0
+expect: AM-MNR actual: A4 1.0
+expect: AM-MNR actual: AM-ADV 17.0
+expect: AM-MNR actual: AM-CAU 1.0
+expect: AM-MNR actual: AM-DIR 1.0
+expect: AM-MNR actual: AM-EXT 2.0
+expect: AM-MNR actual: AM-LOC 14.0
+expect: AM-MNR actual: AM-MNR 145.0
+expect: AM-MNR actual: AM-TMP 16.0
+
+AM-MOD evaluation:
+fn: 0.0 fp: 8.0 tp: 467.0
+recall 1.0
+precision 0.983157894737
+fmeasure 0.991507430998
+expect: AM-MOD actual: AM-MOD 467.0
+
+AM-NEG evaluation:
+fn: 1.0 fp: 2.0 tp: 179.0
+recall 0.994444444444
+precision 0.988950276243
+fmeasure 0.991689750693
+expect: AM-NEG actual: AM-NEG 179.0
+expect: AM-NEG actual: AM-TMP 1.0
+
+AM-PNC evaluation:
+fn: 54.0 fp: 152.0 tp: 74.0
+recall 0.578125
+precision 0.327433628319
+fmeasure 0.418079096045
+expect: AM-PNC actual: A1 14.0
+expect: AM-PNC actual: A2 19.0
+expect: AM-PNC actual: A3 7.0
+expect: AM-PNC actual: AM-ADV 4.0
+expect: AM-PNC actual: AM-CAU 2.0
+expect: AM-PNC actual: AM-LOC 4.0
+expect: AM-PNC actual: AM-PNC 74.0
+expect: AM-PNC actual: AM-TMP 4.0
+
+AM-PRD evaluation:
+fn: 4.0 fp: 0.0 tp: 0.0
+recall 0.0
+precision 0
+fmeasure 0
+expect: AM-PRD actual: A2 2.0
+expect: AM-PRD actual: AM-PNC 2.0
+
+AM-TMP evaluation:
+fn: 231.0 fp: 306.0 tp: 612.0
+recall 0.725978647687
+precision 0.666666666667
+fmeasure 0.695059625213
+expect: AM-TMP actual: A0 6.0
+expect: AM-TMP actual: A1 56.0
+expect: AM-TMP actual: A2 21.0
+expect: AM-TMP actual: A3 6.0
+expect: AM-TMP actual: A4 1.0
+expect: AM-TMP actual: AM-ADV 31.0
+expect: AM-TMP actual: AM-CAU 3.0
+expect: AM-TMP actual: AM-DIR 3.0
+expect: AM-TMP actual: AM-DIS 6.0
+expect: AM-TMP actual: AM-EXT 1.0
+expect: AM-TMP actual: AM-LOC 79.0
+expect: AM-TMP actual: AM-MNR 10.0
+expect: AM-TMP actual: AM-PNC 5.0
+expect: AM-TMP actual: AM-TMP 612.0
+expect: AM-TMP actual: C-AM-TMP 1.0
+expect: AM-TMP actual: C-AM-PNC 2.0
+
+R-AM-TMP evaluation:
+fn: 3.0 fp: 0.0 tp: 0.0
+recall 0.0
+precision 0
+fmeasure 0
+expect: R-AM-TMP actual: R-A1 3.0
+
+C-A0 evaluation:
+fn: 11.0 fp: 0.0 tp: 0.0
+recall 0.0
+precision 0
+fmeasure 0
+expect: C-A0 actual: A0 6.0
+expect: C-A0 actual: AM-CAU 1.0
+expect: C-A0 actual: AM-PNC 3.0
+expect: C-A0 actual: C-AM-PNC 1.0
+
+C-A1 evaluation:
+fn: 89.0 fp: 43.0 tp: 139.0
+recall 0.609649122807
+precision 0.763736263736
+fmeasure 0.678048780488
+expect: C-A1 actual: A1 65.0
+expect: C-A1 actual: A2 6.0
+expect: C-A1 actual: A3 1.0
+expect: C-A1 actual: R-A1 3.0
+expect: C-A1 actual: AM-ADV 8.0
+expect: C-A1 actual: AM-PNC 4.0
+expect: C-A1 actual: AM-TMP 1.0
+expect: C-A1 actual: C-A1 139.0
+expect: C-A1 actual: C-AM-MNR 1.0
+
+C-V evaluation:
+fn: 2.0 fp: 1.0 tp: 0.0
+recall 0.0
+precision 0.0
+fmeasure 0
+expect: C-V actual: AM-DIR 1.0
+expect: C-V actual: AM-MNR 1.0
+
+C-AM-TMP evaluation:
+fn: 0.0 fp: 5.0 tp: 0.0
+recall 0
+precision 0.0
+fmeasure 0
+
+C-AM-DIS evaluation:
+fn: 0.0 fp: 2.0 tp: 0.0
+recall 0
+precision 0.0
+fmeasure 0
+
+C-AM-DIR evaluation:
+fn: 0.0 fp: 3.0 tp: 0.0
+recall 0
+precision 0.0
+fmeasure 0
+
+C-AM-PNC evaluation:
+fn: 0.0 fp: 8.0 tp: 0.0
+recall 0
+precision 0.0
+fmeasure 0
+
+overall:
+fn: 4551.0 fp: 4551.0 tp: 10177.0
+recall 0.690996740902
+precision 0.690996740902
+fmeasure 0.690996740902
