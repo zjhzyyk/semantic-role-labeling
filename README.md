@@ -6,4 +6,4 @@ proj.py contains code for training and predicting.
 
 output/analyze.py is used to analyze features by comparing with baseline.
 
-For more information, please read report.pdf
+For more information, please read [report.pdf](https://github.com/zjhzyyk/semantic-role-labeling/blob/master/report.pdf?raw=true)
